@@ -1,0 +1,101 @@
+/* #714590 */
+/* #e9b422 */
+/* <i class="fa-solid fa-magnifying-glass"></i> */
+/* <i class="fa-solid fa-user"></i> */
+/* <i class="fa-solid fa-cart-shopping"></i> */
+/* <i class="fa-solid fa-bars"></i> */
+
+body {
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    font-family: sans-serif;
+    background-color: aquamarine;
+
+}
+
+/* Header Starts */
+
+.heading-note {
+    background-color: #714590;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    color: white;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.heading-note p {
+    margin-block-start: 0;
+    margin-top: 10px;
+}
+
+.heading-note .heading-links {
+    color: #e9b422;
+}
+
+
+/* Header Ends */
+
+/* Navbar Starts */
+nav {
+    position: sticky;
+    top: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar .navsec3 .search {
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.navbar .navsec3 .search-product {
+    border: none;
+    margin-left: 10px;
+    outline: none;
+}
+
+.navbar .navsec3 ::placeholder {
+    color: black;
+    font-size: 15px;
+
+}
+
+.navbar .navsec4 ul {
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+}
+
+.navbar .navsec4 ul a {
+    text-decoration: none;
+    margin: 0px 12px;
+    color: black;
+    padding-bottom: 12px;
+    font-size: 16px;
+
+}
+
+.navbar .navsec4 ul a:hover {
+    color: #3132ba;
+    border-bottom: 2px solid #3132ba;
+}
+
+.navbar .navsec5 .icon {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+/* Navbar Ends */
