@@ -11,6 +11,8 @@ body {
     outline: none;
     font-family: sans-serif;
     background-color: aquamarine;
+    box-sizing: border-box;
+    
 
 }
 
@@ -55,6 +57,10 @@ nav {
     top: 0;
 }
 
+.navsec1 {
+    margin-left: 10px;
+}
+
 .navbar .navsec3 .search {
     border-bottom: 1px solid black;
     padding: 10px;
@@ -95,7 +101,80 @@ nav {
 .navbar .navsec5 .icon {
     font-size: 20px;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 
 /* Navbar Ends */
+
+/*  */
+.head-image {
+    width: 100%;
+}
+
+/*  */
+
+
+
+/* Features Section Start here */
+.feature-sec {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+.feature-img {
+    width: 60px;
+}
+
+.feature-name {
+    font-weight: 700;
+}
+
+/* Features section Ends here */
+
+
+/* Spotlight Sec start here */
+.spotsec {
+    border: 2px solid red;
+    background: #f3e7ec;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+}
+
+.spotbox {
+    border: 2px solid saddlebrown;
+}
+
+.spotname {
+    font-size: 40px;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.spot-img {
+    width: 100%;
+}
+
+.spotfooter {
+    text-align: center;
+}
+
+.spotfoot1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.spotfoot2 {
+    font-weight: 200;
+}
+/* Spotlight sec ends here */
