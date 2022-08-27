@@ -19,7 +19,7 @@ body {
 /* Header Starts */
 
 .heading-note {
-    background-color: #714590;
+    background-color: #392373;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,6 +47,7 @@ body {
 nav {
     position: sticky;
     top: 0;
+    left: 0;
 }
 .navbar {
     display: flex;
@@ -55,6 +56,7 @@ nav {
     align-items: center;
     position: sticky;
     top: 0;
+    left: 0;
 }
 
 .navsec1 {
@@ -118,7 +120,7 @@ nav {
 
 /* Features Section Start here */
 .feature-sec {
-    border: 2px solid red;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -140,19 +142,18 @@ nav {
 
 /* Spotlight Sec start here */
 .spotsec {
-    border: 2px solid red;
+    
     background: #f3e7ec;
     padding: 20px;
     display: flex;
     flex-direction: column;
+    height: auto;
     
     align-items: center;
     
 }
 
-.spotbox {
-    border: 2px solid saddlebrown;
-}
+
 
 .spotname {
     font-size: 40px;
@@ -163,6 +164,7 @@ nav {
 
 .spot-img {
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .spotfooter {
@@ -170,11 +172,12 @@ nav {
 }
 
 .spotfoot1 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
 }
 
 .spotfoot2 {
     font-weight: 200;
+    font-size: 20px;
 }
 /* Spotlight sec ends here */
